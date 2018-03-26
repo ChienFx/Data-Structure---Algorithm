@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Comparion Sort">
+      <UniqueIdentifier>{d32f8430-949d-4a9c-a719-d686466bb4bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Comparion Sort\BubbleSort">
+      <UniqueIdentifier>{d26a213d-bfa6-4245-84be-0fb4b5d57df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Comparion Sort\HeapSort">
+      <UniqueIdentifier>{fbf71e5d-cd7e-449f-8f85-4bc8bad2273a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Comparion Sort\InsertionSort">
+      <UniqueIdentifier>{d2b1c2d6-defb-4ad4-8f3b-1b731d72b2df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Comparion Sort\MergeSort">
+      <UniqueIdentifier>{e2114fb3-ee34-4c03-b36c-7387c99ce9b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Comparion Sort\SelectionSort">
+      <UniqueIdentifier>{eeb8c0a5-dbec-4c7d-aac1-12977f6b8ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Comparion Sort\QuickSort">
+      <UniqueIdentifier>{dce5edec-4c6d-4569-942f-6038af4b5182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Comparion Sort\InterchangeSort">
+      <UniqueIdentifier>{2b4faf6f-8107-420e-a2d3-2920d368d364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ClassficationSort">
+      <UniqueIdentifier>{609ee118-9536-4a97-9021-8a80806fca03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ClassficationSort\Counting Sort">
+      <UniqueIdentifier>{1d9803bc-e5dc-4a6e-9ef6-6b85efadcfc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ClassficationSort\Radix Sort">
+      <UniqueIdentifier>{faee393a-5d71-4775-90ee-f113e92de1c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ClassficationSort\Flash Sort">
+      <UniqueIdentifier>{7c4222ea-6183-47cf-9152-5359a27132ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="QuickSort.cpp">
+      <Filter>Source Files\Comparion Sort\QuickSort</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HeapSort.cpp">
+      <Filter>Source Files\Comparion Sort\HeapSort</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionSort.cpp">
+      <Filter>Source Files\Comparion Sort\SelectionSort</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleSort.cpp">
+      <Filter>Source Files\Comparion Sort\BubbleSort</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertionSort.cpp">
+      <Filter>Source Files\Comparion Sort\InsertionSort</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSort.cpp">
+      <Filter>Source Files\Comparion Sort\MergeSort</Filter>
+    </ClCompile>
+    <ClCompile Include="CountingSort.cpp">
+      <Filter>Source Files\ClassficationSort\Counting Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="SortAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InterchangeSort.cpp">
+      <Filter>Source Files\Comparion Sort\InterchangeSort</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashSort.cpp">
+      <Filter>Source Files\ClassficationSort\Flash Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="RadixSort.cpp">
+      <Filter>Source Files\ClassficationSort\Radix Sort</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InsertionSort.h">
+      <Filter>Source Files\Comparion Sort\InsertionSort</Filter>
+    </ClInclude>
+    <ClInclude Include="CountingSort.h">
+      <Filter>Source Files\ClassficationSort\Counting Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="RadixSort.h">
+      <Filter>Source Files\ClassficationSort\Radix Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="SortAlgorithm.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

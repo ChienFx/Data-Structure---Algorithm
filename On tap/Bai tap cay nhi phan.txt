@@ -1,0 +1,7 @@
+1. Tính tổng số node của cây -> de qui
+2. Tìm phần tử gần với giá trị trung bình nhất
+3. tính chiều cao -> de qui
+4. tìm phần tử trung vị của cây (là phần ở vị trí n/2 nếu được sắp xếp (không cấp phát thêm bộ nhớ)
+5. Đếm số node có giá trị nhỏ hơn 1 giá trị cho trước
+6. Duyệt cây không đệ qui, không stack (Morris Traversal - Inorder - Preorder)
+#vào hackerrank luyện; https://www.hackerrank.com/domains/data-structures/trees

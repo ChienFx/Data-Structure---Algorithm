@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Huffman">
+      <UniqueIdentifier>{3418c78f-8f56-4520-8b8e-d91c3fe8d231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\B-Tree">
+      <UniqueIdentifier>{d141fb3b-f7ae-4b2a-a9ed-e8e4cc307862}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dictionary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Static_Huffman\Node.h">
+      <Filter>Source Files\Huffman</Filter>
+    </ClInclude>
+    <ClInclude Include="Static_Huffman\StaticHuffman.h">
+      <Filter>Source Files\Huffman</Filter>
+    </ClInclude>
+    <ClInclude Include="B-Tree\BTree.h">
+      <Filter>Source Files\B-Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="B-Tree\BTreeNode.h">
+      <Filter>Source Files\B-Tree</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dictionary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Static_Huffman\Node.cpp">
+      <Filter>Source Files\Huffman</Filter>
+    </ClCompile>
+    <ClCompile Include="Static_Huffman\StaticHuffman.cpp">
+      <Filter>Source Files\Huffman</Filter>
+    </ClCompile>
+    <ClCompile Include="B-Tree\BTree.cpp">
+      <Filter>Source Files\B-Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="B-Tree\BTreeNode.cpp">
+      <Filter>Source Files\B-Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="main_prg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
